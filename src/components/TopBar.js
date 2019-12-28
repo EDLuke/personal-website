@@ -19,18 +19,22 @@ class TopBar extends React.Component {
     }
 
     render() {
+        const textStyle = {
+            color: '#0F4C81'
+        };
+
         return (
-            <Navbar color="dark" dark expand="md">
+            <Navbar style={{backgroundColor: 'transparent'}} dark expand="md">
                 <Container>
                     <NavbarBrand href="/">
                         <img src={profilePic} className="profile-pic" alt="Luke Zhang"/>
-                        <span>Luke Zhang</span>
+                        <span style={textStyle}>Luke Zhang</span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/profile/">Profile</NavLink>
+                                <NavLink style={textStyle} href="/profile/">Profile</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

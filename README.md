@@ -1,5 +1,5 @@
 ## My Personal Website
 
-forked and referenced from:
-
-https://dev.to/oswaldodiaz/my-personal-page-with-react-4jkn
+Library used:
+1. React Bootstrap
+2. [React Water Wave](https://github.com/xxhomey19/react-water-wave)
