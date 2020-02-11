@@ -10,7 +10,18 @@ class TitlePage extends React.Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-            <h1>Hi I'm Luke Zhang. A Random Asian Dude.</h1>
+            <div>
+                <h1
+                    style={{
+                        fontSize: "calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
+                        lineHeight: "calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
+                        color: "black"
+                    }}
+                    align="center"
+                >
+                    Hi I'm Luke Zhang, a Random Asian Dude.
+                </h1>
+            </div>
         </Container>
     }
 }

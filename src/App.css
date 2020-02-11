@@ -27,12 +27,37 @@
   left: 24px;
 }
 
+.intro-background-component {
+  /* The image used */
+  background-image: url(./assets/intro_background.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Full width */
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-background-component {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 svg {
   color: white;
 }
 
 svg:hover {
-  color: #ED1C24;
+  color: #fdbb5b;
   text-decoration: none;
 }
 
@@ -74,4 +99,7 @@ footer a {
   font-size: 30px;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+h1 {
 }
