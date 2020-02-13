@@ -1,6 +1,5 @@
 import React from "react";
 import {Button, Container} from "reactstrap";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class TitlePage extends React.Component {
     render() {

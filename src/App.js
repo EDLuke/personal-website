@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import IntroPage from "./components/IntroPage";
 import TitlePage from "./components/TItlePage";
-import GridPage from "./components/GridPage";
 import {Helmet} from 'react-helmet';
 
 class App extends React.Component  {
@@ -20,7 +19,6 @@ class App extends React.Component  {
                 </Helmet>
                 <IntroPage />
                 <TitlePage />
-                {/*<GridPage />*/}
             </div>
         );
     }
