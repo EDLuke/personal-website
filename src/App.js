@@ -20,7 +20,7 @@ class App extends React.Component  {
                 </Helmet>
                 <IntroPage />
                 <TitlePage />
-                <GridPage />
+                {/*<GridPage />*/}
             </div>
         );
     }
