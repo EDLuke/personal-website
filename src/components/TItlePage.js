@@ -15,9 +15,6 @@ class TitlePage extends React.Component {
                 <a href="mailto:anything@randomasiandude.me">
                     <Button
                         outline
-                        buttonStyle={{
-                            borderRadius: 0
-                        }}
                         style={{
                             fontSize: "calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
                             borderRadius: 0,
