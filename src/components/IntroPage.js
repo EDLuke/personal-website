@@ -13,6 +13,9 @@ class IntroPage extends React.Component {
                             className="unselectable"
                             style={{
                                 marginLeft: "24px",
+                                position: "absolute",
+                                bottom: "24px",
+                                left: "0px",
                                 display: "inline-block"
                             }}>
                             <h2
@@ -21,12 +24,12 @@ class IntroPage extends React.Component {
                                     fontWeight: 512,
                                     letterSpacing: "2px",
                                     lineHeight: "calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
-                                    color: "#fdbb5b",
+                                    color: "#222222",
                                     backgroundColor: "white",
-                                    paddingTop: "12px",
-                                    paddingBottom: "12px",
-                                    paddingLeft: "24px",
-                                    paddingRight: "24px"
+                                    paddingTop: "2px",
+                                    paddingBottom: "2px",
+                                    paddingLeft: "8px",
+                                    paddingRight: "8px"
                                 }}>
                                 LUKE ZHANG
                             </h2>
@@ -35,7 +38,7 @@ class IntroPage extends React.Component {
                             className="unselectable"
                             style={{
                                 fontSize: "calc(80px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
-                                lineHeight: "calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
+                                lineHeight: "calc(1.05em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
                                 color: "white",
                             }}
                             align="center">

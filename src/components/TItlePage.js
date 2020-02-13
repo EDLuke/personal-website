@@ -25,7 +25,7 @@ class TitlePage extends React.Component {
                         }}
                         color="secondary"
                     >
-                        got an idea?
+                        got idea?
                     </Button>
                 </a>
             </div>
