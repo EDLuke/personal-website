@@ -18,9 +18,15 @@ class IntroPage extends React.Component {
                             <h2
                                 style={{
                                     fontSize: "calc(32px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
+                                    fontWeight: 512,
+                                    letterSpacing: "2px",
                                     lineHeight: "calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
-                                    color: "#dddddd",
-                                    backgroundColor: "white"
+                                    color: "#fdbb5b",
+                                    backgroundColor: "white",
+                                    paddingTop: "12px",
+                                    paddingBottom: "12px",
+                                    paddingLeft: "24px",
+                                    paddingRight: "24px"
                                 }}>
                                 LUKE ZHANG
                             </h2>
