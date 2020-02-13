@@ -13,7 +13,7 @@ class App extends React.Component  {
                     <meta property="og:type" content="website" />
                     <meta property="og:title" content="Random Asian Dude"/>
                     <meta property="og:description" content="A bit random"/>
-                    <meta property="og:image" content="http://randomasiandude.me/static/media/intro_background.866989c7.jpg"/>
+                    <meta property="og:image" content="https://random-asian-dude-site.s3.us-east-2.amazonaws.com/assets/v0_1_2.png"/>
                     <meta property="og:url" content="http://randomasiandude.me/"/>
                     <meta name="description" content="A Random Asian Dude's Website" />
                 </Helmet>
