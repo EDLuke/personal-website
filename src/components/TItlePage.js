@@ -12,23 +12,20 @@ class TitlePage extends React.Component {
                     alignItems: "center"
                 }}>
             <div className="text-center">
-                <p
-                    style={{
-                        fontSize: "calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
-                        lineHeight: "calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)))",
-                        color: "black"
-                    }}
-                    align="center"
-                >
-                    Hi I'm Luke Zhang, a Random Asian Dude.
-                </p>
                 <a href="mailto:anything@randomasiandude.me">
                     <Button
                         outline
-                        buttonStyle={{ borderRadius: 0 }}
+                        buttonStyle={{
+                            borderRadius: 0
+
+                        }}
                         style={{
-                            marginTop: "20px",
+                            fontSize: "calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)))",
                             borderRadius: 0,
+                            paddingTop: "12px",
+                            paddingBottom: "12px",
+                            paddingLeft: "24px",
+                            paddingRight: "24px",
                             fontFamily: "Roboto"
                         }}
                         color="secondary"
