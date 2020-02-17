@@ -3,10 +3,14 @@ import './App.css';
 import IntroPage from "./components/IntroPage";
 import TitlePage from "./components/TItlePage";
 import {Helmet} from 'react-helmet';
+import ReactGA from 'react-ga';
+
+const trackingId = "UA-158580757-1";
+ReactGA.initialize(trackingId);
 
 class App extends React.Component  {
-    render() {
 
+    render() {
         return (
             <div className="App" style={{height : '100vh'}}>
                 <Helmet>
