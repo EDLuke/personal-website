@@ -1,7 +1,7 @@
 import React from "react";
 import { Container} from "reactstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faInstagram, faLinkedin, faMediumM} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 class IntroPage extends React.Component {
 
@@ -49,7 +49,6 @@ class IntroPage extends React.Component {
                                 <a href="https://www.linkedin.com/in/luke-zhang/"><FontAwesomeIcon icon={faLinkedin}/></a>
                                 <a href="https://github.com/EDLuke"><FontAwesomeIcon icon={faGithub}/></a>
                                 <a href="https://www.instagram.com/ed_lukez/"><FontAwesomeIcon icon={faInstagram}/></a>
-                                <a href="https://medium.com/@lukezhang_84434"><FontAwesomeIcon icon={faMediumM}/></a>
                             </Container>
                         </footer>
                     </div>
